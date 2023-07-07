@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Search</class>
+ <widget class="QDialog" name="Search">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>294</width>
+    <height>394</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="page_title">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>141</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tahoma</family>
+     <pointsize>20</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Searching </string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_Search">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>70</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Linear Search</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Binary Search</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Jump Search</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="cb_Column">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>120</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Title</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Author</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Price</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Words</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Language</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Category</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Publish</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ISBN</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="cb_Filter">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>191</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Contains</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Not Contains</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>is equal to</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Is not equal to</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Starts with</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ends with</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Is empty</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Is not empty</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="input">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>230</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Cancel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>332</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_Search">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>330</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Search</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
